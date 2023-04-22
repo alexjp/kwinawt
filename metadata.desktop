@@ -1,11 +1,11 @@
 # KWin Script Alex Windows
 
 [Desktop Entry]
-Name=Alex Windows
+Name=Kwin AWT window management
 Comment=Put windows in places
 Icon=preferences-system-windows
 
-X-KDE-PluginInfo-Name=alexwindow
+X-KDE-PluginInfo-Name=kwinawt
 X-KDE-PluginInfo-Version=0.1
 X-KDE-PluginInfo-Author=
 X-KDE-PluginInfo-Email=
@@ -17,6 +17,6 @@ X-Plasma-API=javascript
 X-Plasma-MainScript=code/main.js
 X-KDE-ServiceTypes=KWin/Script,KCModule
 X-KDE-ConfigModule=kwin/effects/configs/kcm_kwin4_genericscripted
-X-KDE-PluginKeyword=alexwindow
-X-KDE-ParentComponents=alexwindow
-X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginKeyword=kwinawt
+X-KDE-ParentComponents=kwinawt
+X-KDE-PluginInfo-EnabledByDefault=false
