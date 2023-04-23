@@ -384,7 +384,7 @@ function detectWindowPositionHorizontally(area, geometry) {
     if (geometry.x < middle_dividing_line_left && geometry.width < (comparing_size + border) ) {
         horiz = place_hleft;
 	}
-	else if (geometry.x < middle_dividing_line_left) {
+	else if (geometry.x < middle_dividing_line_left && geometry.width > (master_size + border)) {
         horiz = place_hmiddle;
 	}
     return horiz;
